@@ -1,4 +1,4 @@
-const chekType = char => char ?  new RegExp('[0-9 !@#$%^&*(),.?":{}|<>]').test(char) : throw new Error('required parameter')
+const chekType = char => char ?  new RegExp('[0-9 !@#$%^&*(),.?":{}|<>]').test(char) : char
 
 const sortABC = str => {
     if (str){
